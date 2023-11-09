@@ -9,9 +9,9 @@ function palindrome(str){
 
 	for(let i = 0; i < arr.length; i++){
 		if(arr[i] != arr2[i]){
-			return `${str} is not a palindrome`;
+			return false;
 		}
 	}
-			return `${str} is a palindrome`;
+			return true;
 }
 module.exports = palindrome
